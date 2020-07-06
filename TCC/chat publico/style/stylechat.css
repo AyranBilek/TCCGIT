@@ -1,0 +1,143 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+body{ background: #fff;
+}
+
+ *::-webkit-scrollbar{width: 5px;}
+ *::-webkit-scrollbar-track{background-color: #fff; border-left: 1px solid:#fff; border-right: 1px solid:#fff;}
+ *::-webkit-scrollbar-thumb{background-color: #2E8B57;}
+ *::-webkit-scrollbar-thumb:hover{background-color: #2E8B57;}
+
+ h1{
+ 	font-size: 34px;
+  color: #2E8B57;
+  padding: 2px 0 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+ }
+
+.publico{
+	font: 13px tahoma, arial;
+	font-weight: bold;
+	color:#2E8B57;
+	position: relative;
+	top: 3%;
+	width: 50%;
+	background: #fff ;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 4px;
+}
+ iframe{
+
+	  position: absolute;
+	  left: 25%;
+	  width: 50%; 
+	  height: 70%;
+	  background: #dcdcdc;
+	  border: 2px solid #2E8B57;
+	  border-radius: 6px;
+	  padding: 10px;
+	 
+	  }
+
+	 .sas {
+
+      position: absolute;	  
+	  top:5%;
+	  left: 25%;
+	  width: 50%; 
+	  height: 5.5%;
+	  background: #2E8B57;
+	  border: 2px solid #2E8B57;
+	  padding: 10px;
+
+	  }
+
+	  .sas a{
+        
+        text-decoration: none;
+        float: right;
+        cursor: pointer;
+	  	font: 20px tahoma, arial;
+	font-weight: bold;
+	color:#fff;
+	transition: all 0.2s linear;
+ }
+
+ .sas a:hover{
+        
+        text-decoration: none;
+        cursor: pointer;
+	  	font: 22px tahoma, arial;
+	font-weight: bold;
+	color:#000;
+ }
+.sas b{
+       
+       cursor:pointer; 
+	  	font: 20px tahoma, arial; 
+	  	font-weight: bold; 
+	  	text-align:center;
+	    color:#fff;
+ }
+
+ .env {
+ 	position: absolute;	  
+	  top:77%;
+	  left: 25%;
+	  width: 50%; 
+	  height: 5.5%;
+	  background: #2E8B57;
+	  border: 2px solid #2E8B57;
+	  padding: 10px;
+ }
+
+ .env input {
+
+	  	width: 89%;
+	  	padding: 6px;
+	  	background: #fff;
+	  	border-radius: 2px;
+	  	border: 2px solid #DCDCDC;
+	  	outline: none;
+	  	margin-bottom: 10px;
+ 	
+ }
+
+ ::-webkit-input-placeholder  {
+  color: #bebcbc; 
+  font-style: italic;
+}
+
+.but input{
+
+      position: absolute;
+       width: 10%;
+        right: 1%;
+        top: 19%;
+	  cursor: pointer;		
+		background: #fff;
+	 border: 1px solid  #2E8B57 ; 
+	 font: 16px tahoma,arial;
+	 font-weight: bold;
+	  color: #2E8B57;
+	   border-radius: 2px;
+       transition: all 0.2s linear;
+}
+
+.but input:hover{
+
+      position: absolute;
+       width: 10%; 
+
+	  cursor: pointer;		
+		background: #dcdcdc;
+	 border: 1px solid  #dcdcdc ; 
+	 font: 16px tahoma,arial;
+	 font-weight: bold;
+	  color: #2e8b57 ;
+	   border-radius: 2px;
+       
+}

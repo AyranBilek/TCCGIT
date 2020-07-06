@@ -1,0 +1,37 @@
+
+<html>
+	<head>
+		<link href="css/stylecadastro.css" rel="stylesheet" type="text/css" />
+		<!--META PARA QUE POSSAM SER USADOS ACENTOS NOS TEXTOS -->
+		<meta charset=UTF-8>
+
+		<title>TCC</title>
+		
+	</head>
+
+	<body>
+
+		<div class="formulario2"><h2>SeeD talk</h2><p>
+			<br>Bem vindo ao SeeD talk um chat para conectar pessoas e desenvolver novas <br>amizades faça seu login ou
+			 <a href="cadastro.php">Cadastre-se</a> 
+			agora !</p>
+
+		</div>
+		<div class="formulario"><h1>Login</h1>
+			
+			<form action="login.php" method="post" enctype="multipart/form-data">
+				<label>
+					
+					<b>Email<p><input type="text" name="email" placeholder=" Digite seu e-mail..." autocomplete="on" required="" /></p>
+					Senha<p><input type="password" name="senha" placeholder="Digite sua Senha..." autocomplete="off" required="" / ></p></b>
+				
+				</label>
+				<input type="hidden" name="acao" value="logar" />
+				<input type="submit" value="Logar" class="botao right" />
+				
+			</form>
+            
+		</div>	
+		
+	</body>
+</html>
